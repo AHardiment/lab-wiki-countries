@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+aside {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  overflow: scroll;
+}
+
+section {
+  padding: 10px;
+}
+
+.country-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.country-details a {
+  text-decoration: none;
+  color: #000;
+}
+
+.country-details a:hover {
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
